@@ -33,13 +33,19 @@ h2 {
 	color: #fff;
 	padding-top: 12px;
 	margin: 0;
+}
+
+h3 {
+	font-family: "Myriad Set Pro", sans-serif;
+	font-size: 26px;
+	color: #fff;
+	margin: 0;
 
 }
 
 .sub-container {
 	width: 86%;
 	margin: 0 auto;
-	/*border: 1px solid blue;*/
 }
 
 .button {
@@ -74,7 +80,40 @@ img {
 	height: 10px;
 	background: #fff;
 	margin: 0;
+}
 
+.footer {
+	width: 100%;
+	height: 70px;
+	background: #000;
+}
+
+.footer-container {
+	width: 70%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.footer-links {
+	width: 15%;
+	display: inline-block;
+	float: right;
+	text-align: right;
+	margin: 20px 0 0 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media (max-width: 850px){
+	.button {
+		width: 33%;
+	}
+
+	.footer-links{
+		width: 30%;
+	}
 }
 
 
