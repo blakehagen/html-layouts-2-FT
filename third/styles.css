@@ -30,6 +30,7 @@ h1 {
 	font-family: "Myriad Set Pro", sans-serif;
 	font-size: 55px;
 	margin: 0;
+	text-align: center;
 }
 
 h5 {
@@ -53,15 +54,13 @@ h5 {
 
 .container {
 	width: 90%;
-	height: auto;
 	margin: 0 auto;
 	text-align: center;
 }
 
 .sub-container {
 	width: 45%;
-	height: 100%;
-	/*border: 1px solid green;*/
+	/*height: auto;*/
 	display: inline-block;
     margin: 75px 22px 0px 22px;
 }
@@ -71,6 +70,16 @@ h5 {
 	height: 90px;
 	background: #333333;
 	margin-top: 70px;
+}
+
+.image-container {
+	width: 100%;
+	height: auto;
+    margin-bottom: 10px;
+}
+
+img {
+	width: 100%;
 }
 
 
