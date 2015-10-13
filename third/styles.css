@@ -1,0 +1,81 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	height: 90px;
+	background: #333333;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h4 {
+	font-family: "Myriad Set Pro", sans-serif;
+	font-size: 24px;
+	margin: 0;
+	color: #fff;
+}
+
+h1 {
+	font-family: "Myriad Set Pro", sans-serif;
+	font-size: 55px;
+	margin: 0;
+}
+
+h5 {
+	font-family: "Myriad Set Pro", sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: left;
+	margin: 0;
+}
+
+.header-container {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.header-link {
+	display: inline-block;
+	margin: 32px 88px 0 0;
+}
+
+.container {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sub-container {
+	width: 45%;
+	height: 100%;
+	/*border: 1px solid green;*/
+	display: inline-block;
+    margin: 75px 22px 0px 22px;
+}
+
+.footer {
+	width: 100%;
+	height: 90px;
+	background: #333333;
+	margin-top: 70px;
+}
+
+
+
+
+
+
+
