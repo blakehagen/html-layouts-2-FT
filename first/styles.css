@@ -1,0 +1,119 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.top-container {
+	width: 90%;
+	height: 24%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.top {
+	width: 27%;
+	height: 90%;
+	display: inline-block;
+	margin: 13px 30px 30px 10px;
+}
+
+.blue {
+	background: #4A90E2;
+}
+
+.red {
+	background: #D0021B;
+}
+
+.gray {
+	background: #4A4A4A;
+}
+
+.text-container {
+	width: 90%;
+	height: auto;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	text-align: center;
+}
+
+h4 {
+	font-size: 22px;
+	line-height: 32px;
+	font-family: "Myriad Set Pro", sans-serif;
+	text-align: left;
+}
+
+.container {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+/*	border: 1px solid black;
+*/	margin-bottom: 30px;
+}
+
+.mid-box-1 {
+	width: 35%;
+	height: 500px;
+	display: inline-block;	
+	margin: 0;
+}
+
+.mid-box-2 {
+	width: 65%;
+	height: 500px;
+	display: inline-block;
+	float: right;
+	margin: 0;
+}
+
+.bottom-box-1 {
+	width: 70%;
+	height: 300px;
+	display: inline-block;	
+	margin: 0;
+}
+
+.bottom-box-2 {
+	width: 30%;
+	height: 300px;
+	display: inline-block;
+	float: right;
+	margin: 0;
+}
+
+.inner {
+	width: 70%;
+	height: 100%;
+	margin: 0 auto;
+	background: #4A4A4A;
+}
+
+@media (max-width: 750px) {
+	.top {
+		width: 23%;
+		margin: 13px 10px 30px 10px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
