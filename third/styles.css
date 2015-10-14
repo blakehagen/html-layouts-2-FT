@@ -39,6 +39,7 @@ h5 {
 	line-height: 24px;
 	text-align: left;
 	margin: 0;
+	display: inline-block;
 }
 
 .header-container {
@@ -60,10 +61,15 @@ h5 {
 
 .sub-container {
 	width: 45%;
-	/*height: auto;*/
+	height: auto;
 	display: inline-block;
     margin: 75px 22px 0px 22px;
 }
+
+.right {
+	float: right;
+}
+
 
 .footer {
 	width: 100%;
@@ -80,6 +86,7 @@ h5 {
 
 img {
 	width: 100%;
+
 }
 
 @media (max-width: 1022px){
