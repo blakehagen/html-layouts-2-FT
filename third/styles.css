@@ -10,10 +10,6 @@ header {
 	background: #333333;
 }
 
-.bottom {
-	position: absolute;
-	bottom: 0;
-}
 
 a {
 	text-decoration: none;
@@ -76,12 +72,14 @@ h5 {
 	height: 90px;
 	background: #333333;
 	margin-top: 70px;
+	
 }
 
 .image-container {
 	width: 100%;
 	height: auto;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 img {
@@ -95,6 +93,11 @@ img {
 	}
 	.image-container {
 		margin-top: -50px;
+		text-align: center;
+	}
+
+	.right {
+		float: none;
 	}
 }
 
